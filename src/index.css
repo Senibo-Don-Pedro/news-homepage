@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.smooth-slide {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Apply the transform property to slide the menu in and out */
+.open {
+  transform: translateX(0%);
+}
