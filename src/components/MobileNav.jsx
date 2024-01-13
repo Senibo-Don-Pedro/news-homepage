@@ -40,7 +40,7 @@ const MobileNav = () => {
         )}
       </button>
       {open && (
-        <div className='absolute z-10 top-0 right-0 bg-white w-[50vh] h-[100%] sm:hidden shadow-2xl '>
+        <div className='absolute z-10 top-0 right-0 bg-white w-[30vh] h-screen sm:hidden shadow-2xl '>
           <div className='flex justify-end mr-7 mt-7'>
             <button onClick={handleMenu}>
               <img src='/images/icon-menu-close.svg' />
